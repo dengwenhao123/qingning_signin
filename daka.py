@@ -37,7 +37,7 @@ def tiwen_daka(s,headers):
                 "ZCTJSJ": ti_for_title + " 15:01:01",
                 "ZCTW": "36.8",
                 "ZWTJSJ": ti_for_title+ " 15:01:01",
-                "ZWTW": "36.6"
+                "ZWTW": "36.5"
         }
             # 体温页面
             tiwen_res = s.post(ti_wen_url, headers=headers)
